@@ -1,0 +1,31 @@
+#chart {
+  width: 800px;
+  height: 800px;
+  background-color: #f7f7f7;
+  margin: 25px auto;
+}
+
+#tooltip {
+  text-align: center;
+  border: 1px solid #ccc;
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  display: none;
+}
+
+#tooltip .metric-date {
+  text-decoration: underline;
+}
+
+.axis {
+  font-size: 19px;
+  shape-rendering: geometricPrecision;
+  //text-anchor: middle;
+}
+
+.yAxisLabel {
+  //transform: rotate(270deg);
+  text-anchor: middle;
+  
+}

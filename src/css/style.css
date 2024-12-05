@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  
+  @media(max-width: 992px) {
+    width: 100%;
+    padding-inline: 16px;
+  }
+}
+
+@font-face {
+  font-family: kamerik;
+  src: url(@/fonts/kamerik205-heavy.woff2);
+  font-weight: 900;  
+}
+
+@font-face {
+  font-family: merryweather;
+  src: url(@/fonts/merriweather-regular-italic.woff2);
+  font-style: italic;
+}
+
+body {
+  /*background: #000;*/
+  /*color: #fff;*/  
+  /*text-align: center;*/
+}
+
+
+
+svg, #chart {
+  max-width: 100%;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+  margin-top: 20px;
+}
+
+.list li {
+  padding: 10px;
+  background: dodgerblue;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  transform-origin: center bottom;
+}
+
+.list {
+  margin-bottom: 200px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 100px;
+  list-style: none;
+  flex-wrap: wrap;
+  
+  & li {
+    padding: 10px;
+    background: dodgerblue;
+    
+    & a {
+      color: white;  
+      text-decoration: none;
+      font-family: sans-serif;
+    }
+    
+  }
+}

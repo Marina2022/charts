@@ -1,0 +1,35 @@
+.try {
+
+
+  .wrapper {
+    perspective: 200px;
+    
+  }
+  
+  .inner {
+    width: 100%;
+    margin-top: 100px;
+    transform: rotateY(2deg);
+    position: relative;
+    perspective: 300px;
+  }
+  
+  .back-img {
+    max-width: 100%;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: rotateY(1deg);
+  }
+  
+  
+  
+  
+}
+
